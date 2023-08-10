@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+input {
+  width: 3rem;
+  margin: 0 0.7rem 0 0.7rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  color: hsl(0, 0%, 8%);
+}
+label {
+  padding-left: 0.7rem;
+  color: hsl(0, 1%, 44%);
+  font-size: 0.8rem;
+}
+@media (min-width: 800px) and (max-width: 1440px) {
+  input {
+    width: 4rem;
+    padding: 1rem;
+  }
+}

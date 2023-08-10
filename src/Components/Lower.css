@@ -1,0 +1,14 @@
+@media (min-width: 800px) and (max-width: 1440px) {
+  h1 {
+    margin: 0;
+    font-size: 3.8rem !important;
+    color: hsl(0, 0%, 8%);
+  }
+}
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+span {
+  color: hsl(259, 100%, 65%);
+}

@@ -1,0 +1,86 @@
+.arrow {
+  position: relative;
+  height: 3.1rem;
+  width: 3.5rem;
+
+  border-radius: 50%;
+}
+.arrow:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+.arrow .arrr {
+  position: absolute;
+
+  border-top: 0.1rem solid white;
+  border-left: 0.1rem solid white;
+  height: 1rem;
+  width: 1rem;
+
+  transform: rotate(225deg);
+  left: 1rem;
+  bottom: 1rem;
+}
+.line {
+  position: absolute;
+
+  border-left: 0.1rem solid white;
+  height: 1.3rem;
+  width: 1rem;
+  left: 1.5rem;
+  top: 0.8rem;
+}
+.container {
+  background-color: #ffffff;
+  min-height: 45vh;
+  max-width: 90%;
+  border-bottom-right-radius: 8rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  padding: 1.5rem 1rem 1rem 1.5rem;
+}
+body {
+  background-color: hsl(0, 0%, 94%);
+}
+.d-hr-arr {
+  display: flex;
+  margin-top: 2rem;
+}
+hr {
+  width: 90%;
+  height: 0;
+  border-style: dotted;
+  border: solid hsl(0, 0%, 86%) 0.5rem;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+}
+.arrow {
+  z-index: 1;
+  right: 9rem;
+  bottom: 0.7rem;
+  background-color: hsl(259, 100%, 65%);
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 800px) and (max-width: 1440px) {
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    width: 40%;
+    min-height: 50vh;
+  }
+  .arrow {
+    right: 1rem;
+  }
+}
+button {
+  border: none;
+}
